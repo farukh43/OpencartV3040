@@ -1,0 +1,37 @@
+14:53:42.496 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+14:53:42.573 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+14:53:43.279 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+14:53:43.283 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+14:53:46.963 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+14:53:47.005 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
+14:53:47.006 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
+14:53:50.817 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+14:53:52.651 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+15:06:58.729 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\master.xml"
+15:07:03.061 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+15:07:03.138 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+15:07:03.889 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+15:07:03.894 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+15:07:07.588 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+15:07:07.647 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
+15:07:07.647 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
+15:07:11.653 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+15:07:13.344 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+15:08:44.992 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\master.xml"
+15:08:49.391 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+15:08:49.472 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+15:08:50.177 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+15:08:50.180 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+15:08:53.776 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+15:08:53.828 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest  *********
+15:08:57.555 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+15:08:59.246 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+15:11:29.259 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\master.xml"
+15:11:33.203 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+15:11:33.296 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+15:11:34.021 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+15:11:34.025 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+15:11:37.705 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+15:11:37.750 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest  *********
+15:11:41.479 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+15:11:43.100 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********

@@ -1,0 +1,57 @@
+15:44:24.211 [TestNG-test-chrometest-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+15:44:48.524 [TestNG-test-edgetest-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+15:44:50.007 [TestNG-test-edgetest-1] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+15:44:50.073 [TestNG-test-edgetest-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+23:12:41.069 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\griddocker.xml"
+23:12:41.545 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\OpencartV3040\griddocker.xml
+
+23:12:47.449 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+23:12:47.671 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+23:12:48.663 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+23:12:48.668 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+23:12:52.868 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+23:12:52.958 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
+23:12:52.958 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
+23:12:57.234 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+23:12:59.543 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+23:13:57.613 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\griddocker.xml"
+23:13:57.940 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\OpencartV3040\griddocker.xml
+
+23:14:06.109 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+23:14:06.451 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+23:14:07.224 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+23:14:07.229 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+23:14:10.959 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+23:14:11.003 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
+23:14:11.003 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
+23:14:18.024 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+23:14:20.002 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+23:17:07.097 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\griddocker.xml"
+23:19:05.495 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\griddocker.xml"
+23:19:05.832 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\OpencartV3040\griddocker.xml
+
+23:19:13.814 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+23:19:14.183 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+23:19:14.955 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+23:19:14.958 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+23:19:18.919 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+23:19:18.963 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
+23:19:18.963 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
+23:19:26.043 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+23:19:27.947 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+23:19:33.972 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
+23:19:34.219 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+23:19:35.120 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
+23:19:35.121 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+23:19:39.348 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+23:19:39.431 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
+23:19:39.432 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
+23:19:43.328 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
+23:19:45.691 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+23:37:42.533 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\griddocker.xml"
+23:37:42.802 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\OpencartV3040\griddocker.xml
+
