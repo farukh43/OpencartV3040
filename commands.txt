@@ -1,0 +1,19 @@
+To Run Standalone grid
+-----------------------
+cd C:\Automation\SeleniumGrid
+java -jar selenium-server-4.27.0.jar standalone
+
+To Start Grid on Docker
+------------------------
+cd C:\Automation\OpencartV3040
+docker-compose up
+
+To Remove Containers on Docker
+------------------------------
+cd C:\Automation\OpencartV3040
+docker-compose down
+
+To Run pom.xml in Command Prompt
+-------------------------------
+cd C:\Automation\OpencartV3040
+mvn test

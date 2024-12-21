@@ -24,8 +24,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.BaseClass;
+import testBase.BaseClass1;
 
-public class ExtentReportManager implements ITestListener {
+public class ExtentReportManager_old implements ITestListener {
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
 	public ExtentTest test;
@@ -35,6 +36,7 @@ public class ExtentReportManager implements ITestListener {
 	public void onStart(ITestContext testContext) {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // time stamp
 		repName = "Test-Report-" + timeStamp + ".html";
+		
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName); // specify location of the report
 		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
 		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
@@ -74,7 +76,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.INFO, result.getThrowable().getMessage());
 
 		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());
+			String imgPath = new BaseClass1().captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
 		} catch (IOException e1) {
 			e1.printStackTrace();

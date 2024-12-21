@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="INFO">
+<Configuration status="WARN">
 
 	<Properties>
 		<Property name="basePath">./logs</Property>
@@ -20,7 +20,7 @@
 	</Appenders>
 	
 	<Loggers>
-		<Root level="Debug">
+		<Root level="info">
 			<!-- Here you can use multiple log levels All < Trace < Debug < Info < Warn < Error < Fatal -->
 			<!-- <AppenderRef ref="Console"/> --> <!-- If you want to see the logs on Console we can uncomments thsi-->
 			<AppenderRef ref="File" />

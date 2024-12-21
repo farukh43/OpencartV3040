@@ -1,4 +1,4 @@
-package pageObjects;
+package pageobjects;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class AccountRegistrationPage extends BasePage {
+public class RegistrationPage extends BasePage {
 
-	public AccountRegistrationPage(WebDriver driver) {
+	public RegistrationPage(WebDriver driver) {
 		super(driver);
 	}
 	
@@ -105,7 +105,7 @@ public class AccountRegistrationPage extends BasePage {
 	    //mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
 	}
 
-	public String GetConfirmationMsg() {
+	public String getConfirmationMsg() {
 		try {
 			return (msgConfirmation.getText());
 		} catch (Exception e) {
@@ -113,7 +113,7 @@ public class AccountRegistrationPage extends BasePage {
 		}
 	}
 	
-	public int GetNavigationalLinksCount() {
+	public int getNavigationalLinksCount() {
 	    try {
 	        // Ensure linkNavigationalLinks is a list of WebElements
 	        List<WebElement> linkNavigational = (List<WebElement>) linkNavigationalLinks;

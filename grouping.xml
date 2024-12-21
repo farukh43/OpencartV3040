@@ -16,7 +16,7 @@
   </groups>
   
   <listeners>
-<listener class-name="utilities.ExtentReportManager"></listener>
+<listener class-name="utilities.ExtentReporter"></listener>
 </listeners>
 
   
@@ -25,9 +25,9 @@
   <parameter name="browser" value="chrome"></parameter>
   
     <classes>
-     <class name="testCases.TC001_AccountRegistrationTest"/>
-     <class name="testCases.TC002_LoginTest"/>
-     <class name="testCases.TC003_LoginDDT"/>
+    <class name="testcases.TC2_Login"/> 
+      <class name="testcases.TC1_Registration"/>
+       <class name="testcases.TC1_Registration"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

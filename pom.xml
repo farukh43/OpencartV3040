@@ -19,7 +19,7 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.5.2</version>
 					<configuration>
-						<suiteXmlFiles>master.xml</suiteXmlFiles>
+						<suiteXmlFiles>localtests.xml</suiteXmlFiles>
 						<!-- We can group 2 xml files here but it is not suggestable -->
 						<!-- <suiteXmlFiles>groupping.xml</suiteXmlFiles>-->
 						
@@ -29,6 +29,19 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	
+	<!-- Here you can change the versions in future -->
+	<properties>
+		<selenium-version>4.27.0</selenium-version>
+		<testng-version>7.10.2</testng-version>
+		<apache-poi-version>5.3.0</apache-poi-version>
+		<log4j-version>2.24.1</log4j-version>
+		<extentreports-version>5.1.2</extentreports-version>
+		<commons-io-version>2.17.0</commons-io-version>
+		<commons-lang3-version>3.15.0</commons-lang3-version>
+		<commons-email-version>1.6.0</commons-email-version>
+		<allure-testng-version>2.29.0</allure-testng-version>
+	</properties>
 
 	<dependencies>
 		<!--
@@ -36,7 +49,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.27.0</version>
+			<version>${selenium-version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->

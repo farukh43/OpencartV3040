@@ -1,0 +1,45 @@
+10:33:01.249 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+10:33:01.324 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+10:33:01.363 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+10:33:01.861 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+10:33:01.862 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Entering user login credentials...
+10:33:02.089 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Entered email: no2@nomail.com
+10:33:02.096 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+10:33:02.096 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+10:33:02.171 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - First Name set successfully...
+10:33:02.239 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+10:33:02.245 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Entered password.
+10:33:02.293 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Email entered:rkJQbH@gmail.com
+10:33:02.344 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Entered phone number:6269311052
+10:33:02.436 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+10:33:02.488 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+10:33:03.238 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+10:33:03.241 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+10:33:03.296 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+10:33:03.427 [TestNG-test-chrometest-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+10:33:03.546 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+10:33:03.546 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+10:33:03.590 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+10:33:03.764 [TestNG-test-chrometest-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+10:33:05.466 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+10:33:07.000 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+10:33:07.752 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+10:33:07.863 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+10:33:08.359 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+10:33:08.359 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Entering user login credentials...
+10:33:08.478 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Entered email: no2@nomail.com
+10:33:08.574 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Entered password.
+10:33:09.361 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+10:33:09.454 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+10:33:09.524 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+10:33:09.525 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+10:33:09.555 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+10:33:10.227 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+10:33:10.227 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+10:33:10.311 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - First Name set successfully...
+10:33:10.385 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+10:33:10.490 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Email entered:amFPFA@gmail.com
+10:33:10.568 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Entered phone number:1821227073
+10:33:10.726 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+10:33:10.773 [TestNG-test-edgetest-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+10:33:10.811 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.

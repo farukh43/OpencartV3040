@@ -1,37 +1,30 @@
-14:53:42.496 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
-14:53:42.573 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
-14:53:43.279 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
-14:53:43.283 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
-14:53:46.963 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-14:53:47.005 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
-14:53:47.006 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
-14:53:50.817 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
-14:53:52.651 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
-15:06:58.729 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\master.xml"
-15:07:03.061 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
-15:07:03.138 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
-15:07:03.889 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
-15:07:03.894 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
-15:07:07.588 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-15:07:07.647 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed
-15:07:07.647 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug Logs...
-15:07:11.653 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
-15:07:13.344 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
-15:08:44.992 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\master.xml"
-15:08:49.391 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
-15:08:49.472 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
-15:08:50.177 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
-15:08:50.180 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
-15:08:53.776 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-15:08:53.828 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest  *********
-15:08:57.555 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
-15:08:59.246 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
-15:11:29.259 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\OpencartV3040\master.xml"
-15:11:33.203 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest   *********
-15:11:33.296 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
-15:11:34.021 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Registration Link
-15:11:34.025 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
-15:11:37.705 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-15:11:37.750 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest  *********
-15:11:41.479 [main] INFO  testCases.TC002_LoginTest - *********** Starting TC002_LoginTest *********
-15:11:43.100 [main] INFO  testCases.TC002_LoginTest - *********** Finished TC002_LoginTest *********
+10:33:11.845 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+10:33:11.849 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+10:33:11.876 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+10:33:13.127 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+10:33:16.636 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - WebDriver initialized for: firefox
+10:33:17.076 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - WebDriver initialized for: firefox
+10:33:18.928 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+10:33:19.225 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+10:33:19.973 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+10:33:19.974 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+10:33:20.041 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - First Name set successfully...
+10:33:20.063 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+10:33:20.092 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Email entered:WRssEs@gmail.com
+10:33:20.114 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Entered phone number:1271630972
+10:33:20.160 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+10:33:20.399 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+10:33:21.400 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+10:33:21.400 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+10:33:21.428 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+10:33:22.249 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+10:33:25.784 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+10:33:26.082 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+10:33:26.577 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+10:33:26.578 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Entering user login credentials...
+10:33:26.665 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Entered email: no2@nomail.com
+10:33:26.712 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Entered password.
+10:33:27.647 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+10:33:27.647 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+10:33:27.685 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+10:33:28.490 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
