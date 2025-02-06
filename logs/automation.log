@@ -1,30 +1,7 @@
-10:33:11.845 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
-10:33:11.849 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
-10:33:11.876 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
-10:33:13.127 [TestNG-test-edgetest-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
-10:33:16.636 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - WebDriver initialized for: firefox
-10:33:17.076 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - WebDriver initialized for: firefox
-10:33:18.928 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
-10:33:19.225 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
-10:33:19.973 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
-10:33:19.974 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Entering user details for registration...
-10:33:20.041 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - First Name set successfully...
-10:33:20.063 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Last Name set successfully...
-10:33:20.092 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Email entered:WRssEs@gmail.com
-10:33:20.114 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Entered phone number:1271630972
-10:33:20.160 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
-10:33:20.399 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
-10:33:21.400 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
-10:33:21.400 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
-10:33:21.428 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
-10:33:22.249 [TestNG-test-firefoxtest-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
-10:33:25.784 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
-10:33:26.082 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
-10:33:26.577 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
-10:33:26.578 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Entering user login credentials...
-10:33:26.665 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Entered email: no2@nomail.com
-10:33:26.712 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Entered password.
-10:33:27.647 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
-10:33:27.647 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
-10:33:27.685 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
-10:33:28.490 [TestNG-test-firefoxtest-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+21:18:16.886 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: JGUMtc@gmail.com
+21:18:18.879 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
+21:18:18.944 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
+21:18:56.388 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: false
+21:19:16.441 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
+21:19:20.697 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
+21:19:21.007 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.

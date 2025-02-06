@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-crossbrowsertestingsuite" class="navigator-link">
-              <span class="suite-name border-passed">crossbrowsertestingsuite</span>
+            <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Master Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-crossbrowsertestingsuite" class="navigator-link ">
-                    <span>C:\Automation\OpencartV3040\crossbrowsertesting.xml</span>
+                  <a href="#" panel-name="test-xml-Master_Suite" class="navigator-link ">
+                    <span>C:\Automation\OpencartV3040\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-crossbrowsertestingsuite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                  <a href="#" panel-name="testlist-Master_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-crossbrowsertestingsuite" class="navigator-link ">
-                    <span>3 groups</span>
+                  <a href="#" panel-name="group-Master_Suite" class="navigator-link ">
+                    <span>4 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-crossbrowsertestingsuite" class="navigator-link ">
+                  <a href="#" panel-name="times-Master_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-crossbrowsertestingsuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Master_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-crossbrowsertestingsuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Master_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-crossbrowsertestingsuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Master_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,46 +92,100 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Master_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC6_EndToEndTest" class="method navigator-link" hash-for-method="executeEndToEndTest">executeEndToEndTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC5_AddToCart" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="verifyAllCombinations">verifyAllCombinations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-crossbrowsertestingsuite" class="hide-methods passed suite-crossbrowsertestingsuite"> (hide)</a> <!-- hide-methods passed suite-crossbrowsertestingsuite -->
-                      <a href="#" panel-name="suite-crossbrowsertestingsuite" class="show-methods passed suite-crossbrowsertestingsuite"> (show)</a> <!-- show-methods passed suite-crossbrowsertestingsuite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods passed suite-Master_Suite"> (hide)</a> <!-- hide-methods passed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods passed suite-Master_Suite"> (show)</a> <!-- show-methods passed suite-Master_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-crossbrowsertestingsuite">
+                    <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossbrowsertestingsuite" title="testcases.TC2_Login" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(, , Invalid)">testLogin(, , Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossbrowsertestingsuite" title="testcases.TC2_Login" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(no4@nomail.com, , Invalid)">testLogin(no4@nomail.com, , Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossbrowsertestingsuite" title="testcases.TC2_Login" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(abc@gmail.com, test@123, Invalid)">testLogin(abc@gmail.com, test@123, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossbrowsertestingsuite" title="testcases.TC1_Registration" class="method navigator-link" hash-for-method="testUserRegistration">testUserRegistration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(no4@nomail.com, Test@123, Invalid)">testLogin(no4@nomail.com, Test@123, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossbrowsertestingsuite" title="testcases.TC1_Registration" class="method navigator-link" hash-for-method="testUserRegistration">testUserRegistration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(no2@nomail.com, Noname#786, Valid)">testLogin(no2@nomail.com, Noname#786, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossbrowsertestingsuite" title="testcases.TC1_Registration" class="method navigator-link" hash-for-method="testUserRegistration">testUserRegistration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(no3@nomail.com, Test#786, Valid)">testLogin(no3@nomail.com, Test#786, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-crossbrowsertestingsuite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(, Test@123, Invalid)">testLogin(, Test@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Loginddt" class="method navigator-link" hash-for-method="testLogin(lakdhmi@gmail.com, Laxmi#123, Invalid)">testLogin(lakdhmi@gmail.com, Laxmi#123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC2_Login" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC3_Logout" class="method navigator-link" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC4_SeachProduct" class="method navigator-link" hash-for-method="testProductSearch">testProductSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testcases.TC1_Registration" class="method navigator-link" hash-for-method="testUserRegistration">testUserRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Master_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -142,37 +196,70 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-crossbrowsertestingsuite" class="panel crossbrowsertestingsuite">
-          <div class="suite-crossbrowsertestingsuite-class-passed">
+        <div panel-name="suite-Master_Suite" class="panel Master_Suite">
+          <div class="suite-Master_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC1_Registration</span>
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC5_AddToCart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testUserRegistration">
-                  </a> <!-- testUserRegistration -->
-                  <span class="method-name">testUserRegistration</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUserRegistration">
-                  </a> <!-- testUserRegistration -->
-                  <span class="method-name">testUserRegistration</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testUserRegistration">
-                  </a> <!-- testUserRegistration -->
-                  <span class="method-name">testUserRegistration</span>
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: Success message not displayed! expected [true] but found [false]
+	at testcases.TC5_AddToCart.testAddToCart(TC5_AddToCart.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-crossbrowsertestingsuite-class-passed -->
-          <div class="suite-crossbrowsertestingsuite-class-passed">
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC6_EndToEndTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeEndToEndTest">
+                  </a> <!-- executeEndToEndTest -->
+                  <span class="method-name">executeEndToEndTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at testcases.TC6_EndToEndTest.executeEndToEndTest(TC6_EndToEndTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC2_Loginddt</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllCombinations">
+                  </a> <!-- verifyAllCombinations -->
+                  <span class="method-name">verifyAllCombinations</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Login succeeded with invalid credentials.
+	at testcases.TC2_Loginddt.verifyAllCombinations(TC2_Loginddt.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">testcases.TC2_Login</span>
@@ -185,91 +272,201 @@
                   <span class="method-name">testLoginWithValidCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC2_Loginddt</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginWithValidCredentials">
-                  </a> <!-- testLoginWithValidCredentials -->
-                  <span class="method-name">testLoginWithValidCredentials</span>
+                  <a name="testLogin(, , Invalid)">
+                  </a> <!-- testLogin(, , Invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(,,Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginWithValidCredentials">
-                  </a> <!-- testLoginWithValidCredentials -->
-                  <span class="method-name">testLoginWithValidCredentials</span>
+                  <a name="testLogin(no4@nomail.com, , Invalid)">
+                  </a> <!-- testLogin(no4@nomail.com, , Invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(no4@nomail.com,,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(abc@gmail.com, test@123, Invalid)">
+                  </a> <!-- testLogin(abc@gmail.com, test@123, Invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(abc@gmail.com,test@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(no4@nomail.com, Test@123, Invalid)">
+                  </a> <!-- testLogin(no4@nomail.com, Test@123, Invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(no4@nomail.com,Test@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(no2@nomail.com, Noname#786, Valid)">
+                  </a> <!-- testLogin(no2@nomail.com, Noname#786, Valid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(no2@nomail.com,Noname#786,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(no3@nomail.com, Test#786, Valid)">
+                  </a> <!-- testLogin(no3@nomail.com, Test#786, Valid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(no3@nomail.com,Test#786,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, Test@123, Invalid)">
+                  </a> <!-- testLogin(, Test@123, Invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(,Test@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(lakdhmi@gmail.com, Laxmi#123, Invalid)">
+                  </a> <!-- testLogin(lakdhmi@gmail.com, Laxmi#123, Invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(lakdhmi@gmail.com,Laxmi#123,Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-crossbrowsertestingsuite-class-passed -->
-        </div> <!-- panel crossbrowsertestingsuite -->
-        <div panel-name="test-xml-crossbrowsertestingsuite" class="panel">
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC4_SeachProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductSearch">
+                  </a> <!-- testProductSearch -->
+                  <span class="method-name">testProductSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC1_Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistration">
+                  </a> <!-- testUserRegistration -->
+                  <span class="method-name">testUserRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC3_Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout">
+                  </a> <!-- testLogout -->
+                  <span class="method-name">testLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+        </div> <!-- panel Master_Suite -->
+        <div panel-name="test-xml-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Automation\OpencartV3040\crossbrowsertesting.xml</span>
+            <span class="header-content">C:\Automation\OpencartV3040\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;crossbrowsertestingsuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Master Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;chrometest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.TC2_Login&quot;/&gt;
       &lt;class name=&quot;testcases.TC1_Registration&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- chrometest --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;edgetest&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
       &lt;class name=&quot;testcases.TC2_Login&quot;/&gt;
-      &lt;class name=&quot;testcases.TC1_Registration&quot;/&gt;
+      &lt;class name=&quot;testcases.TC3_Logout&quot;/&gt;
+      &lt;class name=&quot;testcases.TC4_SeachProduct&quot;/&gt;
+      &lt;class name=&quot;testcases.TC5_AddToCart&quot;/&gt;
+      &lt;class name=&quot;testcases.TC2_Loginddt&quot;/&gt;
+      &lt;class name=&quot;testcases.TC6_EndToEndTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- edgetest --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;firefoxtest&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testcases.TC2_Login&quot;/&gt;
-      &lt;class name=&quot;testcases.TC1_Registration&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- firefoxtest --&gt;
-&lt;/suite&gt; &lt;!-- crossbrowsertestingsuite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Master Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-crossbrowsertestingsuite" class="panel">
+        <div panel-name="testlist-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for crossbrowsertestingsuite</span>
+            <span class="header-content">Tests for Master Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">chrometest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">edgetest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">firefoxtest (2 classes)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-crossbrowsertestingsuite" class="panel">
+        <div panel-name="group-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for crossbrowsertestingsuite</span>
+            <span class="header-content">Groups for Master Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Datadriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">executeEndToEndTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">testLoginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testProductSearch</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -292,73 +489,113 @@
                 <span class="method-in-group-name">testLoginWithValidCredentials</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-crossbrowsertestingsuite" class="panel">
+        <div panel-name="times-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for crossbrowsertestingsuite</span>
+            <span class="header-content">Times for Master Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_crossbrowsertestingsuite');
-function tableData_crossbrowsertestingsuite() {
+suiteTableInitFunctions.push('tableData_Master_Suite');
+function tableData_Master_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginWithValidCredentials')
-data.setCell(0, 2, 'testcases.TC2_Login')
-data.setCell(0, 3, 10608);
+data.setCell(0, 1, 'executeEndToEndTest')
+data.setCell(0, 2, 'testcases.TC6_EndToEndTest')
+data.setCell(0, 3, 70091);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testUserRegistration')
-data.setCell(1, 2, 'testcases.TC1_Registration')
-data.setCell(1, 3, 4875);
+data.setCell(1, 1, 'testAddToCart')
+data.setCell(1, 2, 'testcases.TC5_AddToCart')
+data.setCell(1, 3, 32106);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testUserRegistration')
-data.setCell(2, 2, 'testcases.TC1_Registration')
-data.setCell(2, 3, 4860);
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'testcases.TC2_Loginddt')
+data.setCell(2, 3, 22841);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testUserRegistration')
-data.setCell(3, 2, 'testcases.TC1_Registration')
-data.setCell(3, 3, 4792);
+data.setCell(3, 1, 'testLogin')
+data.setCell(3, 2, 'testcases.TC2_Loginddt')
+data.setCell(3, 3, 22551);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testLoginWithValidCredentials')
-data.setCell(4, 2, 'testcases.TC2_Login')
-data.setCell(4, 3, 4565);
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'testcases.TC2_Loginddt')
+data.setCell(4, 3, 22176);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testLoginWithValidCredentials')
-data.setCell(5, 2, 'testcases.TC2_Login')
-data.setCell(5, 3, 4088);
-window.suiteTableData['crossbrowsertestingsuite']= { tableData: data, tableDiv: 'times-div-crossbrowsertestingsuite'}
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'testcases.TC2_Loginddt')
+data.setCell(5, 3, 22117);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLogin')
+data.setCell(6, 2, 'testcases.TC2_Loginddt')
+data.setCell(6, 3, 22057);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLogout')
+data.setCell(7, 2, 'testcases.TC3_Logout')
+data.setCell(7, 3, 6040);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testUserRegistration')
+data.setCell(8, 2, 'testcases.TC1_Registration')
+data.setCell(8, 3, 5474);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLogin')
+data.setCell(9, 2, 'testcases.TC2_Loginddt')
+data.setCell(9, 3, 5203);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginWithValidCredentials')
+data.setCell(10, 2, 'testcases.TC2_Login')
+data.setCell(10, 3, 4492);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLogin')
+data.setCell(11, 2, 'testcases.TC2_Loginddt')
+data.setCell(11, 3, 3498);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testProductSearch')
+data.setCell(12, 2, 'testcases.TC4_SeachProduct')
+data.setCell(12, 3, 3379);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLogin')
+data.setCell(13, 2, 'testcases.TC2_Loginddt')
+data.setCell(13, 3, 3256);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAllCombinations')
+data.setCell(14, 2, 'testcases.TC2_Loginddt')
+data.setCell(14, 3, 1);
+window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
-              <div id="times-div-crossbrowsertestingsuite">
-              </div> <!-- times-div-crossbrowsertestingsuite -->
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Master_Suite">
+              </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-crossbrowsertestingsuite" class="panel">
+        <div panel-name="reporter-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for crossbrowsertestingsuite</span>
+            <span class="header-content">Reporter output for Master Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-crossbrowsertestingsuite" class="panel">
+        <div panel-name="ignored-methods-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-crossbrowsertestingsuite" class="panel">
+        <div panel-name="chronological-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -369,118 +606,141 @@ return data;
                 <span class="method-name">setUp(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUserRegistration</span>
+                <span class="method-start">2597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8078 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(windows, chrome)</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">8251 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLoginWithValidCredentials</span>
-                <span class="method-start">1419 ms</span>
+                <span class="method-start">9406 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testUserRegistration</span>
-                <span class="method-start">1419 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5990 ms</span>
+                <span class="method-start">13900 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">6281 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.TC3_Logout</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(windows, edge)</span>
-                <span class="method-start">7002 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp(windows, edge)</span>
-                <span class="method-start">7002 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testLoginWithValidCredentials</span>
-                <span class="method-start">8156 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testUserRegistration</span>
-                <span class="method-start">9689 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12245 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">14566 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp(windows, firefox)</span>
-                <span class="method-start">15952 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp(windows, firefox)</span>
-                <span class="method-start">15952 ms</span>
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">14037 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testUserRegistration</span>
-                <span class="method-start">19325 ms</span>
+                <span class="method-name">testLogout</span>
+                <span class="method-start">15161 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testLoginWithValidCredentials</span>
-                <span class="method-start">19765 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_Registration</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24118 ms</span>
+                <span class="method-start">21202 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.TC4_SeachProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">21337 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testProductSearch</span>
+                <span class="method-start">22243 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30375 ms</span>
+                <span class="method-start">25624 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC5_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">25747 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">26705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58978 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC2_Loginddt</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">59158 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(no2@nomail.com, Noname#786, Valid)</span>
+                <span class="method-start">61274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(lakdhmi@gmail.com, Laxmi#123, Invalid)</span>
+                <span class="method-start">66479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(no3@nomail.com, Test#786, Valid)</span>
+                <span class="method-start">88598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(abc@gmail.com, test@123, Invalid)</span>
+                <span class="method-start">91856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(no4@nomail.com, Test@123, Invalid)</span>
+                <span class="method-start">113915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, Test@123, Invalid)</span>
+                <span class="method-start">117416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(no4@nomail.com, , Invalid)</span>
+                <span class="method-start">139594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, , Invalid)</span>
+                <span class="method-start">162436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAllCombinations</span>
+                <span class="method-start">184991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185108 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC6_EndToEndTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">185311 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeEndToEndTest</span>
+                <span class="method-start">186435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">256653 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

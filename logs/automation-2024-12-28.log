@@ -1,0 +1,53 @@
+21:15:13.533 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+21:15:16.049 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+21:15:16.173 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+21:15:16.669 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+21:15:16.669 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+21:15:16.881 [main] INFO  testcases.TC2_Login - Entered email: no2@nomail.com
+21:15:17.034 [main] INFO  testcases.TC2_Login - Entered password.
+21:15:18.019 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+21:15:18.023 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+21:15:18.070 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+21:15:18.206 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+21:15:19.332 [main] INFO  testcases.TC3_Logout - WebDriver initialized for: chrome
+21:15:21.813 [main] INFO  testcases.TC3_Logout - Navigated to application URL: https://tutorialsninja.com/demo/
+21:15:21.975 [main] INFO  testcases.TC3_Logout - Clicked on 'My Account' link.
+21:15:22.555 [main] INFO  testcases.TC3_Logout - Clicked on 'Login' link, navigating to the Login Page.
+21:15:22.555 [main] INFO  testcases.TC3_Logout - Entering login credentials...
+21:15:22.774 [main] INFO  testcases.TC3_Logout - Entered email: no2@nomail.com
+21:15:22.938 [main] INFO  testcases.TC3_Logout - Entered password.
+21:15:23.877 [main] INFO  testcases.TC3_Logout - Clicked on the 'Login' button.
+21:15:23.877 [main] INFO  testcases.TC3_Logout - Checking if 'My Account' page is displayed...
+21:15:23.961 [main] INFO  testcases.TC3_Logout - Login successful. 'My Account' page is visible.
+21:15:23.961 [main] INFO  testcases.TC3_Logout - Logging out from the account...
+21:15:24.799 [main] INFO  testcases.TC3_Logout - Clicked on 'Logout' link.
+21:15:24.800 [main] INFO  testcases.TC3_Logout - Clicking on 'Continue' button to navigate back to the Home Page...
+21:15:25.358 [main] INFO  testcases.TC3_Logout - Checking if the Home Page is displayed after logout...
+21:15:25.373 [main] INFO  testcases.TC3_Logout - Logout successful. Navigated back to the Home Page.
+21:15:25.508 [main] INFO  testcases.TC3_Logout - WebDriver quit and removed from ThreadLocal.
+21:15:26.414 [main] INFO  testcases.TC4_SeachProduct - WebDriver initialized for: chrome
+21:15:28.791 [main] INFO  testcases.TC4_SeachProduct - Navigated to application URL: https://tutorialsninja.com/demo/
+21:15:28.792 [main] INFO  testcases.TC4_SeachProduct - Navigated to the Home page.
+21:15:28.909 [main] INFO  testcases.TC4_SeachProduct - Entered product name in search field: mac
+21:15:29.673 [main] INFO  testcases.TC4_SeachProduct - Clicked on the 'Search' button to initiate product search.
+21:15:29.703 [main] INFO  testcases.TC4_SeachProduct - Navigated to the Search Results page.
+21:15:29.794 [main] INFO  testcases.TC4_SeachProduct - Verifying if the product 'MacBook' is displayed in the search results.
+21:15:29.794 [main] INFO  testcases.TC4_SeachProduct - Product 'MacBook' found in search results. Test passed.
+21:15:29.918 [main] INFO  testcases.TC4_SeachProduct - WebDriver quit and removed from ThreadLocal.
+21:15:30.877 [main] INFO  testcases.TC5_AddToCart - WebDriver initialized for: chrome
+21:15:33.528 [main] INFO  testcases.TC5_AddToCart - Navigated to application URL: https://tutorialsninja.com/demo/
+21:15:33.673 [main] INFO  testcases.TC5_AddToCart - Entered product name in the search box: MacBook
+21:15:34.439 [main] INFO  testcases.TC5_AddToCart - Clicked the Search button.
+21:15:34.525 [main] INFO  testcases.TC5_AddToCart - Product found in search results: MacBook
+21:15:42.626 [main] INFO  testcases.TC5_AddToCart - Selected product: MacBook
+21:15:42.745 [main] INFO  testcases.TC5_AddToCart - Set quantity to: 2
+21:15:42.858 [main] INFO  testcases.TC5_AddToCart - Clicked 'Add to Cart' for product: MacBook
+21:16:03.329 [main] INFO  testcases.TC5_AddToCart - WebDriver quit and removed from ThreadLocal.
+21:16:04.378 [main] INFO  testcases.TC2_Loginddt - WebDriver initialized for: chrome
+21:18:09.483 [main] INFO  testcases.TC2_Loginddt - WebDriver quit and removed from ThreadLocal.
+21:18:10.606 [main] INFO  testcases.TC6_EndToEndTest - WebDriver initialized for: chrome
+21:18:13.101 [main] INFO  testcases.TC6_EndToEndTest - Navigated to application URL: https://tutorialsninja.com/demo/
+21:18:15.617 [main] INFO  testcases.TC6_EndToEndTest - Registration Confirmation: Your Account Has Been Created!
+21:18:16.402 [main] INFO  testcases.TC6_EndToEndTest - Clicking 'Continue' button to return to the Home Page...
+21:18:16.869 [main] INFO  testcases.TC6_EndToEndTest - Verifying if Home Page is displayed after logout...
+21:18:16.886 [main] INFO  testcases.TC6_EndToEndTest - Logout successful, navigated to Home Page.

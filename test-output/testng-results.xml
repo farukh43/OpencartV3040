@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-21T10:32:57 EST" name="crossbrowsertestingsuite" finished-at="2024-12-21T10:33:28 EST" duration-ms="31361">
+  <suite started-at="2024-12-28T21:15:03 EST" name="Master Suite" finished-at="2024-12-28T21:19:21 EST" duration-ms="257094">
     <groups>
       <group name="Master">
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@7b94089b]" name="testUserRegistration" class="testcases.TC1_Registration"/>
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@24111ef1]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@4fad9bb2]" name="testUserRegistration" class="testcases.TC1_Registration"/>
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@4b3ed2f0]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@3a12c404]" name="testUserRegistration" class="testcases.TC1_Registration"/>
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@7862f56]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
+        <method signature="TC6_EndToEndTest.executeEndToEndTest()[pri:0, instance:testcases.TC6_EndToEndTest@74f5ce22]" name="executeEndToEndTest" class="testcases.TC6_EndToEndTest"/>
+        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@561868a0]" name="testUserRegistration" class="testcases.TC1_Registration"/>
+        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@7803bfd]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
+        <method signature="TC3_Logout.testLogout()[pri:0, instance:testcases.TC3_Logout@42bc14c1]" name="testLogout" class="testcases.TC3_Logout"/>
+        <method signature="TC4_SeachProduct.testProductSearch()[pri:0, instance:testcases.TC4_SeachProduct@531f4093]" name="testProductSearch" class="testcases.TC4_SeachProduct"/>
+        <method signature="TC5_AddToCart.testAddToCart()[pri:0, instance:testcases.TC5_AddToCart@62ef27a8]" name="testAddToCart" class="testcases.TC5_AddToCart"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@24111ef1]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@4b3ed2f0]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@7862f56]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
+        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@7803bfd]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
+        <method signature="TC3_Logout.testLogout()[pri:0, instance:testcases.TC3_Logout@42bc14c1]" name="testLogout" class="testcases.TC3_Logout"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@7b94089b]" name="testUserRegistration" class="testcases.TC1_Registration"/>
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@4fad9bb2]" name="testUserRegistration" class="testcases.TC1_Registration"/>
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@3a12c404]" name="testUserRegistration" class="testcases.TC1_Registration"/>
+        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@561868a0]" name="testUserRegistration" class="testcases.TC1_Registration"/>
       </group> <!-- Regression -->
+      <group name="Datadriven">
+        <method signature="TC2_Loginddt.testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" name="testLogin" class="testcases.TC2_Loginddt"/>
+      </group> <!-- Datadriven -->
     </groups>
-    <test started-at="2024-12-21T10:32:57 EST" name="chrometest" finished-at="2024-12-21T10:33:03 EST" duration-ms="6635">
-      <class name="testcases.TC1_Registration">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC1_Registration@7b94089b]" started-at="2024-12-21T10:32:57 EST" name="setUp" finished-at="2024-12-21T10:32:58 EST" duration-ms="1410" status="PASS">
+    <test started-at="2024-12-28T21:15:03 EST" name="Test" finished-at="2024-12-28T21:19:21 EST" duration-ms="257094">
+      <class name="testcases.TC5_AddToCart">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC5_AddToCart@62ef27a8]" started-at="2024-12-28T21:15:29 EST" name="setUp" finished-at="2024-12-28T21:15:30 EST" duration-ms="958" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,17 +41,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration()[pri:0, instance:testcases.TC1_Registration@7b94089b]" started-at="2024-12-21T10:32:58 EST" name="testUserRegistration" finished-at="2024-12-21T10:33:03 EST" duration-ms="4860" status="PASS">
+        <test-method signature="testAddToCart()[pri:0, instance:testcases.TC5_AddToCart@62ef27a8]" started-at="2024-12-28T21:15:30 EST" name="testAddToCart" finished-at="2024-12-28T21:16:02 EST" duration-ms="32106" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Success message not displayed! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Success message not displayed! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.TC5_AddToCart.testAddToCart(TC5_AddToCart.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC1_Registration@7b94089b]" started-at="2024-12-21T10:33:03 EST" name="tearDown" finished-at="2024-12-21T10:33:03 EST" duration-ms="171" status="PASS">
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC5_AddToCart@62ef27a8]" started-at="2024-12-28T21:16:03 EST" name="tearDown" finished-at="2024-12-28T21:16:03 EST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC1_Registration -->
-      <class name="testcases.TC2_Login">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Login@24111ef1]" started-at="2024-12-21T10:32:57 EST" name="setUp" finished-at="2024-12-21T10:32:58 EST" duration-ms="1409" status="PASS">
+      </class> <!-- testcases.TC5_AddToCart -->
+      <class name="testcases.TC1_Registration">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC1_Registration@561868a0]" started-at="2024-12-28T21:15:04 EST" name="setUp" finished-at="2024-12-28T21:15:06 EST" duration-ms="2550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,45 +106,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@24111ef1]" started-at="2024-12-21T10:32:58 EST" name="testLoginWithValidCredentials" finished-at="2024-12-21T10:33:03 EST" duration-ms="4565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@24111ef1]" started-at="2024-12-21T10:33:03 EST" name="tearDown" finished-at="2024-12-21T10:33:03 EST" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC2_Login -->
-    </test> <!-- chrometest -->
-    <test started-at="2024-12-21T10:33:04 EST" name="edgetest" finished-at="2024-12-21T10:33:13 EST" duration-ms="8817">
-      <class name="testcases.TC1_Registration">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC1_Registration@4fad9bb2]" started-at="2024-12-21T10:33:04 EST" name="setUp" finished-at="2024-12-21T10:33:07 EST" duration-ms="2686" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration()[pri:0, instance:testcases.TC1_Registration@4fad9bb2]" started-at="2024-12-21T10:33:07 EST" name="testUserRegistration" finished-at="2024-12-21T10:33:11 EST" duration-ms="4875" status="PASS">
+        <test-method signature="testUserRegistration()[pri:0, instance:testcases.TC1_Registration@561868a0]" started-at="2024-12-28T21:15:06 EST" name="testUserRegistration" finished-at="2024-12-28T21:15:12 EST" duration-ms="5474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC1_Registration@4fad9bb2]" started-at="2024-12-21T10:33:11 EST" name="tearDown" finished-at="2024-12-21T10:33:13 EST" duration-ms="1250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC1_Registration@561868a0]" started-at="2024-12-28T21:15:12 EST" name="tearDown" finished-at="2024-12-28T21:15:12 EST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC1_Registration -->
-      <class name="testcases.TC2_Login">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Login@4b3ed2f0]" started-at="2024-12-21T10:33:04 EST" name="setUp" finished-at="2024-12-21T10:33:05 EST" duration-ms="1153" status="PASS">
+      <class name="testcases.TC2_Loginddt">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:16:03 EST" name="setUp" finished-at="2024-12-28T21:16:04 EST" duration-ms="1049" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,26 +125,258 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@4b3ed2f0]" started-at="2024-12-21T10:33:05 EST" name="testLoginWithValidCredentials" finished-at="2024-12-21T10:33:09 EST" duration-ms="4088" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:16:05 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:16:10 EST" duration-ms="5203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no2@nomail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noname#786]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:16:10 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:16:32 EST" duration-ms="22117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakdhmi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi#123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:16:32 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:16:36 EST" duration-ms="3256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no3@nomail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test#786]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:16:36 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:16:58 EST" duration-ms="22057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:16:58 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:17:01 EST" duration-ms="3498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no4@nomail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:17:01 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:17:23 EST" duration-ms="22176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:17:23 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:17:46 EST" duration-ms="22841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no4@nomail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:17:46 EST" name="testLogin" data-provider="LoginData" finished-at="2024-12-28T21:18:09 EST" duration-ms="22551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="verifyAllCombinations()[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:18:09 EST" name="verifyAllCombinations" finished-at="2024-12-28T21:18:09 EST" depends-on-methods="testcases.TC2_Loginddt.testLogin" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Login succeeded with invalid credentials.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Login succeeded with invalid credentials.
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testcases.TC2_Loginddt.verifyAllCombinations(TC2_Loginddt.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllCombinations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Loginddt@6f3c660a]" started-at="2024-12-28T21:18:09 EST" name="tearDown" finished-at="2024-12-28T21:18:09 EST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC2_Loginddt -->
+      <class name="testcases.TC2_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Login@7803bfd]" started-at="2024-12-28T21:15:12 EST" name="setUp" finished-at="2024-12-28T21:15:13 EST" duration-ms="1155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@7803bfd]" started-at="2024-12-28T21:15:13 EST" name="testLoginWithValidCredentials" finished-at="2024-12-28T21:15:18 EST" duration-ms="4492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@4b3ed2f0]" started-at="2024-12-21T10:33:09 EST" name="tearDown" finished-at="2024-12-21T10:33:10 EST" duration-ms="1216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@7803bfd]" started-at="2024-12-28T21:15:18 EST" name="tearDown" finished-at="2024-12-28T21:15:18 EST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC2_Login -->
-    </test> <!-- edgetest -->
-    <test started-at="2024-12-21T10:33:13 EST" name="firefoxtest" finished-at="2024-12-21T10:33:28 EST" duration-ms="15229">
-      <class name="testcases.TC1_Registration">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC1_Registration@3a12c404]" started-at="2024-12-21T10:33:13 EST" name="setUp" finished-at="2024-12-21T10:33:16 EST" duration-ms="3372" status="PASS">
+      <class name="testcases.TC6_EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC6_EndToEndTest@74f5ce22]" started-at="2024-12-28T21:18:09 EST" name="setUp" finished-at="2024-12-28T21:18:10 EST" duration-ms="1123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,24 +385,64 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration()[pri:0, instance:testcases.TC1_Registration@3a12c404]" started-at="2024-12-21T10:33:16 EST" name="testUserRegistration" finished-at="2024-12-21T10:33:21 EST" duration-ms="4792" status="PASS">
+        <test-method signature="executeEndToEndTest()[pri:0, instance:testcases.TC6_EndToEndTest@74f5ce22]" started-at="2024-12-28T21:18:10 EST" name="executeEndToEndTest" finished-at="2024-12-28T21:19:20 EST" duration-ms="70091" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testcases.TC6_EndToEndTest.executeEndToEndTest(TC6_EndToEndTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC1_Registration@3a12c404]" started-at="2024-12-21T10:33:21 EST" name="tearDown" finished-at="2024-12-21T10:33:22 EST" duration-ms="820" status="PASS">
+        </test-method> <!-- executeEndToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC6_EndToEndTest@74f5ce22]" started-at="2024-12-28T21:19:20 EST" name="tearDown" finished-at="2024-12-28T21:19:21 EST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC1_Registration -->
-      <class name="testcases.TC2_Login">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Login@7862f56]" started-at="2024-12-21T10:33:13 EST" name="setUp" finished-at="2024-12-21T10:33:17 EST" duration-ms="3812" status="PASS">
+      </class> <!-- testcases.TC6_EndToEndTest -->
+      <class name="testcases.TC3_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC3_Logout@42bc14c1]" started-at="2024-12-28T21:15:18 EST" name="setUp" finished-at="2024-12-28T21:15:19 EST" duration-ms="1124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,22 +451,48 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:testcases.TC2_Login@7862f56]" started-at="2024-12-21T10:33:17 EST" name="testLoginWithValidCredentials" finished-at="2024-12-21T10:33:27 EST" duration-ms="10608" status="PASS">
+        <test-method signature="testLogout()[pri:0, instance:testcases.TC3_Logout@42bc14c1]" started-at="2024-12-28T21:15:19 EST" name="testLogout" finished-at="2024-12-28T21:15:25 EST" duration-ms="6040" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@7862f56]" started-at="2024-12-21T10:33:27 EST" name="tearDown" finished-at="2024-12-21T10:33:28 EST" duration-ms="803" status="PASS">
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC3_Logout@42bc14c1]" started-at="2024-12-28T21:15:25 EST" name="tearDown" finished-at="2024-12-28T21:15:25 EST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC2_Login -->
-    </test> <!-- firefoxtest -->
-  </suite> <!-- crossbrowsertestingsuite -->
+      </class> <!-- testcases.TC3_Logout -->
+      <class name="testcases.TC4_SeachProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC4_SeachProduct@531f4093]" started-at="2024-12-28T21:15:25 EST" name="setUp" finished-at="2024-12-28T21:15:26 EST" duration-ms="905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductSearch()[pri:0, instance:testcases.TC4_SeachProduct@531f4093]" started-at="2024-12-28T21:15:26 EST" name="testProductSearch" finished-at="2024-12-28T21:15:29 EST" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC4_SeachProduct@531f4093]" started-at="2024-12-28T21:15:29 EST" name="tearDown" finished-at="2024-12-28T21:15:29 EST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC4_SeachProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
 </testng-results>
