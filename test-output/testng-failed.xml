@@ -8,20 +8,6 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcases.TC5_AddToCart">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testAddToCart"/>
-        </methods>
-      </class> <!-- testcases.TC5_AddToCart -->
-      <class name="testcases.TC6_EndToEndTest">
-        <methods>
-          <include name="executeEndToEndTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testcases.TC6_EndToEndTest -->
       <class name="testcases.TC2_Loginddt">
         <methods>
           <include name="tearDown"/>

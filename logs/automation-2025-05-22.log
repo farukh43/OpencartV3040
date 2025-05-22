@@ -1,0 +1,55 @@
+21:18:16.886 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: JGUMtc@gmail.com
+21:18:18.879 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
+21:18:18.944 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
+21:18:56.388 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: false
+21:19:16.441 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
+21:19:20.697 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
+21:19:21.007 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.
+16:53:10.102 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\OpencartV3040\master.xml
+
+16:53:14.504 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+16:53:17.419 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+16:53:17.626 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+16:53:18.478 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+16:53:18.478 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+16:53:18.604 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+16:53:18.696 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+16:53:18.830 [main] INFO  testcases.TC1_Registration - Email entered:pMvNey@gmail.com
+16:53:18.933 [main] INFO  testcases.TC1_Registration - Entered phone number:1384864791
+16:53:19.137 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+16:53:19.229 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+16:53:20.356 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+16:53:20.356 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+16:53:20.405 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+16:53:20.674 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+16:53:22.031 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+16:53:24.721 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+16:53:24.879 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+16:53:25.872 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+16:53:25.873 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+16:53:26.092 [main] INFO  testcases.TC2_Login - Entered email: no2@nomail.com
+16:53:26.265 [main] INFO  testcases.TC2_Login - Entered password.
+16:53:26.396 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+16:53:26.399 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+16:53:27.547 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+16:53:27.753 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+16:53:28.976 [main] INFO  testcases.TC3_Logout - WebDriver initialized for: chrome
+16:53:31.664 [main] INFO  testcases.TC3_Logout - Navigated to application URL: https://tutorialsninja.com/demo/
+16:53:31.804 [main] INFO  testcases.TC3_Logout - Clicked on 'My Account' link.
+16:53:32.369 [main] INFO  testcases.TC3_Logout - Clicked on 'Login' link, navigating to the Login Page.
+16:53:32.369 [main] INFO  testcases.TC3_Logout - Entering login credentials...
+16:53:32.568 [main] INFO  testcases.TC3_Logout - Entered email: no2@nomail.com
+16:53:32.726 [main] INFO  testcases.TC3_Logout - Entered password.
+16:53:32.861 [main] INFO  testcases.TC3_Logout - Clicked on the 'Login' button.
+16:53:32.861 [main] INFO  testcases.TC3_Logout - Checking if 'My Account' page is displayed...
+16:53:33.996 [main] INFO  testcases.TC3_Logout - Login successful. 'My Account' page is visible.
+16:53:33.996 [main] INFO  testcases.TC3_Logout - Logging out from the account...
+16:53:34.896 [main] INFO  testcases.TC3_Logout - Clicked on 'Logout' link.
+16:53:34.896 [main] INFO  testcases.TC3_Logout - Clicking on 'Continue' button to navigate back to the Home Page...
+16:53:35.455 [main] INFO  testcases.TC3_Logout - Checking if the Home Page is displayed after logout...
+16:53:35.473 [main] INFO  testcases.TC3_Logout - Logout successful. Navigated back to the Home Page.
+16:53:35.661 [main] INFO  testcases.TC3_Logout - WebDriver quit and removed from ThreadLocal.
+16:53:36.972 [main] INFO  testcases.TC4_SeachProduct - WebDriver initialized for: chrome
+16:53:39.561 [main] INFO  testcases.TC4_SeachProduct - Navigated to application URL: https://tutorialsninja.com/demo/
+16:53:39.562 [main] INFO  testcases.TC4_SeachProduct - Navigated to the Home page.

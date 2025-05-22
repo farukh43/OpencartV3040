@@ -1,7 +1,31 @@
-21:18:16.886 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: JGUMtc@gmail.com
-21:18:18.879 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
-21:18:18.944 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
-21:18:56.388 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: false
-21:19:16.441 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
-21:19:20.697 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
-21:19:21.007 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.
+16:53:39.702 [main] INFO  testcases.TC4_SeachProduct - Entered product name in search field: mac
+16:53:40.471 [main] INFO  testcases.TC4_SeachProduct - Clicked on the 'Search' button to initiate product search.
+16:53:40.516 [main] INFO  testcases.TC4_SeachProduct - Navigated to the Search Results page.
+16:53:40.634 [main] INFO  testcases.TC4_SeachProduct - Verifying if the product 'MacBook' is displayed in the search results.
+16:53:40.635 [main] INFO  testcases.TC4_SeachProduct - Product 'MacBook' found in search results. Test passed.
+16:53:40.801 [main] INFO  testcases.TC4_SeachProduct - WebDriver quit and removed from ThreadLocal.
+16:53:42.126 [main] INFO  testcases.TC5_AddToCart - WebDriver initialized for: chrome
+16:53:44.352 [main] INFO  testcases.TC5_AddToCart - Navigated to application URL: https://tutorialsninja.com/demo/
+16:53:44.505 [main] INFO  testcases.TC5_AddToCart - Entered product name in the search box: MacBook
+16:53:45.347 [main] INFO  testcases.TC5_AddToCart - Clicked the Search button.
+16:53:45.424 [main] INFO  testcases.TC5_AddToCart - Product found in search results: MacBook
+16:53:46.557 [main] INFO  testcases.TC5_AddToCart - Selected product: MacBook
+16:53:46.693 [main] INFO  testcases.TC5_AddToCart - Set quantity to: 2
+16:53:46.826 [main] INFO  testcases.TC5_AddToCart - Clicked 'Add to Cart' for product: MacBook
+16:53:47.269 [main] INFO  testcases.TC5_AddToCart - Success message verified successfully.
+16:53:47.573 [main] INFO  testcases.TC5_AddToCart - WebDriver quit and removed from ThreadLocal.
+16:53:48.894 [main] INFO  testcases.TC2_Loginddt - WebDriver initialized for: chrome
+16:55:58.141 [main] INFO  testcases.TC2_Loginddt - WebDriver quit and removed from ThreadLocal.
+16:55:59.585 [main] INFO  testcases.TC6_EndToEndTest - WebDriver initialized for: chrome
+16:56:02.317 [main] INFO  testcases.TC6_EndToEndTest - Navigated to application URL: https://tutorialsninja.com/demo/
+16:56:05.063 [main] INFO  testcases.TC6_EndToEndTest - Registration Confirmation: Your Account Has Been Created!
+16:56:05.960 [main] INFO  testcases.TC6_EndToEndTest - Clicking 'Continue' button to return to the Home Page...
+16:56:06.570 [main] INFO  testcases.TC6_EndToEndTest - Verifying if Home Page is displayed after logout...
+16:56:06.580 [main] INFO  testcases.TC6_EndToEndTest - Logout successful, navigated to Home Page.
+16:56:06.580 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: ELSoYl@gmail.com
+16:56:09.186 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
+16:56:09.239 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
+16:56:14.826 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: true
+16:56:14.862 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
+16:56:18.650 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
+16:56:18.899 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.
